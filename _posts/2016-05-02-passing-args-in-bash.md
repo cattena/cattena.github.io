@@ -54,8 +54,11 @@ To do this sort of thing in shell script all you have to do is replace the keywo
 
 <hr class="codebreak">
 
+{% highlight python %}
+
     $ ./spotify-now "%artist - %title"
     Kendrick Lamar - To Pimp A Butterfly
+{% endhighlight %}
 
 <br><br>
 Of course all this code is on my [Github](https://github.com/getmicah/spotify-now) and please do fork it and make pull requests regarding any issues or improvements you may have with my code.

@@ -5,9 +5,9 @@
 @import "config";
 
 body {
-    color: $color-fg;
+    color: #F2F2F2;
     background: $color-bg;
-    font-family: 'Inconsolata', ;
+    font-family: 'Courier', ;
     font-size: 100%;
     font-weight: 400;
 }
@@ -19,18 +19,18 @@ p {
     line-height: 150%;
 }
 a {
-  color: $color-link;
+  color: #A9A9F5;
   text-decoration: none;
   &:visited {
-    color: $color-link;
+    color: #A9A9F5; /*#8181F7;*/
     text-decoration: none;
   }
   &:hover {
-    color: $color-link;
+    color: #9FF781; /**#FA5858;**/
     text-decoration: underline;
   }
   &:active {
-    color: $color-link;
+    color: #A9A9F5;/**#81F7F3;**/
     text-decoration: none;
   }
 }
@@ -47,7 +47,7 @@ ul {
 
 
 .wrapper {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     padding: 60px 30px 60px 30px;
     @media screen and (max-width: $br) {
@@ -67,6 +67,8 @@ ul {
     h1 {
         font-size: 2em;
         margin-bottom: 0;
+		color: #fff;
+		/**font-weight: 600;**/
     }
     ul {
         margin-top: 10px;
@@ -76,8 +78,8 @@ ul {
             padding-left: 5px;
         }
     }
-}
 
+}
 
 .portfolio {
     padding-bottom: 30px;
@@ -93,7 +95,8 @@ ul {
     padding-bottom: 30px;
     h1 {
         font-size: 1.4em;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+		font-weight: bold;
     }
 }
 
@@ -161,12 +164,15 @@ ul {
                 margin: auto;
             }
         }
+/**
         code {
             padding: 3px;
             font-size: 0.9em;
             border-radius: 3px;
             background: $color-grey;
         }
+**/
+/**
         .highlight {
             margin: 10px;
             margin-bottom: 15px;
@@ -179,11 +185,14 @@ ul {
                 background: none;
             }
         }
+**/
+/**
         .codebreak {
             margin: 15px;
             border: 0;
             border-bottom: 1px dashed $color-fg;
         }
+**/
     }
 }
 
