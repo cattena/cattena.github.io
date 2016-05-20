@@ -1,8 +1,8 @@
-### cattena.github.io
+# cattena.github.io
 Página personal creada con [jekyll](http://jekyllrb.com) y alojada en Github Pages.
 
 ### Créditos:
 Diseño minimalista basado en el tema de [getmicah](getmicah.github.io)
 
-### Licencia
+### Licencia:
 [MIT License](https://raw.githubusercontent.com/getmicah/getmicah.github.io/master/LICENSE)
