@@ -4,7 +4,7 @@ description: ''
 
 
 # File management
-include: [".htaccess"]
+#include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
 
 
