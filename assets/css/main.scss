@@ -47,12 +47,31 @@ ul {
 
 
 .wrapper {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
     padding: 60px 30px 60px 30px;
     @media screen and (max-width: $br) {
         padding: 20px;
     }
+}
+
+.backlink {
+	max-width: 950px;
+	margin: auto;
+    padding: 10px 0px 0px 0px;
+    @media screen and (max-width: $br) {
+        padding: 5px;
+    }
+}
+
+.postwrapper {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 30px 60px 30px;
+    @media screen and (max-width: $br) {
+        padding: 20px;
+    }
+
 }
 
 
@@ -107,7 +126,7 @@ ul {
         font-size: 1.6em;
         font-weight: 700;
         text-decoration: underline;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-bottom: 5px;
     }
     &__date {
@@ -164,35 +183,6 @@ ul {
                 margin: auto;
             }
         }
-/**
-        code {
-            padding: 3px;
-            font-size: 0.9em;
-            border-radius: 3px;
-            background: $color-grey;
-        }
-**/
-/**
-        .highlight {
-            margin: 10px;
-            margin-bottom: 15px;
-            padding: 10px;
-            line-height: 1.5;
-            border-radius: 3px;
-            background: $color-fg;
-            code {
-                color: $color-code;
-                background: none;
-            }
-        }
-**/
-/**
-        .codebreak {
-            margin: 15px;
-            border: 0;
-            border-bottom: 1px dashed $color-fg;
-        }
-**/
     }
 }
 
