@@ -4,4 +4,5 @@
 Gemfile.lock
 .sass-cache
 _drafts/
+_site/
 *.swp
