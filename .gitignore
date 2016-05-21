@@ -2,5 +2,6 @@
 .htaccess
 .DS_Store
 Gemfile.lock
+.sass-cache
 _drafts/
 *.swp
