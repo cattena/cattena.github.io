@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+<!--    
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+-->
+    {% if page.title %}
+        <title>{{ page.title }}</title>
+    {% else %}
+        <title>{{ site.name }}</title>
+    {% endif %}
+
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/solarized-dark.css">
+
+</head>
+
+<body>
+
+	<div class="backlink">
+		<a href="/notas.html">&lt;--- Volver al &iacute;ndice de notas</a>
+	</div>
+    <div class="postwrapper">
+		<div class="post">
+    		<h1 class="post__title">{{ page.title }}</h1>
+    		<p class="post__date">{{ page.date | date: "%d/%m/%Y" }}</p>
+    		<div class="post__content">
+        		{{ content }}
+    		</div>
+		</div>
+    </div>
+
+</body>
+
+</html>
+
+
+

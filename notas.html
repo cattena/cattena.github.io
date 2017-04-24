@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="blog">
+<!--	<p>Borradores, notas sueltas y aleatorias.</p>
+	<br />
+	<br />
+-->
+    <h1>Listado de notas públicas</h1>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
