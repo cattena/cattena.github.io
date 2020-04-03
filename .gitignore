@@ -1,6 +1,7 @@
 .jekyll-metadata
 .htaccess
 .DS_Store
+Gemfile
 Gemfile.lock
 .sass-cache
 _drafts/
