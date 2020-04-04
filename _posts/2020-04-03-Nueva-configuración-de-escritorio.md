@@ -19,6 +19,7 @@ Los resultados hasta el momento han sido excelentes gracias a las siguientes her
 
 * Wayland Compositor: <a href="https://swaywm.org/">Sway</a>
 * Barra de estado: <a href="https://i3wm.org/i3status/manpage.html">i3status</a>.
+* Lanzador: <a href="https://github.com/Cloudef/bemenu">bemenu</a>.
 * Editores de texto: <a href="https://howl.io/">howl</a>, <a href="https://www.vim.org/">vim</a>.
 * Gestor de archivos: <a href="https://midnight-commander.org/">mc</a>, <a href="https://ranger.github.io/">ranger</a>.
 * Visor de imágenes: <a href="https://github.com/eXeC64/imv">imv</a>.
@@ -28,6 +29,20 @@ Los resultados hasta el momento han sido excelentes gracias a las siguientes her
 no quiero olvidar el siguiente:
 </p>
 
+<br />
+Configuración de systemd para autologin
+{% highlight bash %}
+#
+# /etc/systemd/system/getty@tty1.service.d/override.conf
+#
+
+[Service]
+ExecStart=
+ExecStart=-/usr/bin/agetty --autologin carlos --noclear %I 38400 linux
+{% endhighlight %}
+
+<br /><br />
+Levantar automaticamente Sway luego de login:
 {% highlight bash %}
 #
 # ~/.bash_profile
@@ -37,6 +52,8 @@ no quiero olvidar el siguiente:
 #(en lugar de XWayland).
 export GDK_BACKEND=wayland
 export CLUTTER_BACKEND=wayland
+export QT_QPA_PLATFORM=wayland-egl
+export BEMENU_BACKEND=wayland
 export MOZ_ENABLE_WAYLAND=1
 
 #Utilizar Sway como compositor de wayland
@@ -45,9 +62,23 @@ if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 #
 {% endhighlight %}
 
-<br />
+<br /><br />
 
+Forzar matplotlib para que use GTK3 como backend:
+
+{% highlight bash %}
+#
+# ~/.config/matplotlib/matplotlibrc
+#
+...
+backend : Gtk3Agg
+...
+{% endhighlight %}
+
+<br /><br />
 <p style="text-align:justify">Un vistazo de los resultados:</p>
 <p align="center"><img src="/assets/img/20200403_16h32m07s_grim.png" height="400px" width="640px"></p>
+<!--<p align="center"><img src="/assets/img/20200404_16h32m46s_grim.png" height="400px" width="640px"></p>-->
+<p align="center"><img src="/assets/img/20200404_16h39m30s_grim.png" height="400px" width="640px"></p>
 
-
+<br /><br />

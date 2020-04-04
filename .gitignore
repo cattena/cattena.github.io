@@ -4,6 +4,7 @@
 Gemfile
 Gemfile.lock
 .sass-cache
+.jekyll-cache/
 _drafts/
 _site/
 *.swp
