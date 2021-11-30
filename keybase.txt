@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/cttn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.carloscattena.com.ar
+  * I am cttn (https://keybase.io/cttn) on keybase.
+  * I have a public key ASA0aJKH8r2hniCF1TnUIuCIHGZn2O-w4_m0gkvgOSee2go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120915d313b5e9cb9ce9e8613f3cd0d13c67c73d074f2c112c3415d017db4f50e6d0a",
+      "host": "keybase.io",
+      "kid": "012034689287f2bda19e2085d539d422e0881c6667d8efb0e3f9b4824be039279eda0a",
+      "uid": "fabada038d8239969fe9cb0b3bd01a19",
+      "username": "cttn"
+    },
+    "merkle_root": {
+      "ctime": 1638273529,
+      "hash": "c0eae7cbbd7accf5d25a105f0a04a65307db75d01174cc4c86d7f49cd9dbf2f3763c78b28fb46806b1b97e4bbec3d372450f16a48d54889e2557a5e7c4a67c9a",
+      "hash_meta": "046aa38b927935412fffe60d1a7ae58aeb4fcd6513698a0abf5abdc46e974646",
+      "seqno": 21329803
+    },
+    "service": {
+      "entropy": "irqi2NbREoYQBCnXgfx+yxT3",
+      "hostname": "www.carloscattena.com.ar",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.0"
+  },
+  "ctime": 1638273592,
+  "expire_in": 504576000,
+  "prev": "375aad567d1845d2a3f0184d47e26b567b68076a3edacb237ecdb1321f9df7e0",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNGiSh/K9oZ4ghdU51CLgiBxmZ9jvsOP5tIJL4DknntoKp3BheWxvYWTESpcCC8QgN1qtVn0YRdKj8BhNR+JrVntoB2o+2ssjfs2xMh+d9+DEIBT9okt5bGzhAlQSy1OMgLRkZbmYBQtDxJb9M022ZLh7AgHCo3NpZ8RAlpEH/LcgHpeRXG0pKa+hVhPut91ufxAOmueB+OujMyExg6Kec4QvyZSpwZhA/F02oTBP2aTVwDyDTTbYmMJDBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGkXdzcdKIXRgbAB5xqVLaHdq/iCfO8SuBPeBfrEzpT2o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cttn
+
+==================================================================
